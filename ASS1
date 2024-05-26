@@ -1,0 +1,92 @@
+void main() {
+    List ages = [10, 15, 13, 28, "41"];
+    print(ages);
+    print(ages[0]);
+    print(ages[4]);
+
+    print(ages[ages.length - 1]);
+    print(ages.last);
+
+    List<int> ages0 = [10, 15, 13, 28];
+    print(ages0);
+
+    int allTotal = 0;
+    for (int i = 0; i < ages0.length; i++) {
+      allTotal = allTotal + ages0[i];
+    }
+    print(allTotal);
+
+    ages0.add(15);
+
+    allTotal = 0;
+    for (int i = 0; i < ages0.length; i++) {
+      allTotal = allTotal + ages0[i];
+    }
+    print(allTotal);
+
+    print(ages0.indexOf(15));
+
+    for (int i = 0; i < ages0.length; i++) {
+      if (ages0[i] == 15) {
+        print(i);
+        break;
+      }
+    }
+
+    print(ages0.indexOf(26));
+
+    print(ages0.isEmpty);
+    print(ages0.isNotEmpty);
+
+    ages0.insert(1, 25);
+    print(ages0);
+    print(ages0.reversed);
+
+    List<int> ages1 = [2, 5, 8];
+    ages0.addAll(ages1);
+    print(ages0);
+    ages0.insertAll(1, ages1);
+    print(ages0);
+
+    List ages2 = [2, 5, 8];
+    print(ages2);
+
+    print(ages0);
+    // ages0.removeRange(1, 4);
+    print(ages0);
+    // ages0.removeRange(ages0.indexOf(2), ages0.indexOf(8) + 1); //ass
+    // print(ages0);
+
+
+    //as a loop:
+    int start = ages0.indexOf(2);
+    int end = ages0.indexOf(8)+1;
+  
+    for (int i= start; i < end; i++){
+      ages0.removeAt(start);
+    }
+
+    print(ages0);
+
+   /* 
+      *    
+     ***   
+    *****  
+   ******* 
+  *********
+     */
+
+  print('\n');
+  
+  for(int i = 0 ; i< 5; i++){
+    var stars='';
+    for(int j = (5-i); j > 1 ;j--) {
+         stars += ' ';
+    }
+    for(int j = 0; j <= 2*i ;j++){
+         stars += '*';
+    }
+    print(stars);
+  }
+  
+}
