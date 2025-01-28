@@ -11,12 +11,21 @@ A task manager app that allows users to create, view, edit, and delete tasks. It
 ### Other Projects (Coming Soon)
 Additional Flutter projects will be added in the future, showcasing a variety of concepts and functionalities.
 
+## 📱 Flutter Calculator
+### Features
+  - **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
+  - **Clear Button**: Resets the input and clears the screen.
+  - **Real-time Calculation**: Displays results after entering numbers and operations.
+  - **Responsive Design**: Works seamlessly on both smartphones and tablets with a clean, minimalistic interface.
+  - **Input Fields**: Enter the first number, operation, and second number using text fields.
+  - **Interactive Buttons**: Use number buttons and operation buttons for calculations.
+
 ## 📱 Task Manager
 ### Features
-- **Task Creation**: Add new tasks with titles and descriptions.
-- **Task Management**: Edit or delete tasks with ease.
-- **List View**: Display tasks in a scrollable list format.
-- **Persistent Data**: Store tasks locally for persistence across app sessions.
+  - **Task Creation**: Add new tasks with titles and descriptions.
+  - **Task Management**: Edit or delete tasks with ease.
+  - **List View**: Display tasks in a scrollable list format.
+  - **Persistent Data**: Store tasks locally for persistence across app sessions.
 ### Getting Started
 Follow the steps below to run the app on your local machine.
 
