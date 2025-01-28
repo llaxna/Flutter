@@ -11,16 +11,16 @@ A task manager app that allows users to create, view, edit, and delete tasks. It
 ### Other Projects (Coming Soon)
 Additional Flutter projects will be added in the future, showcasing a variety of concepts and functionalities.
 
-### 📱 Task Manager
-#### Features
+## 📱 Task Manager
+### Features
 - **Task Creation**: Add new tasks with titles and descriptions.
 - **Task Management**: Edit or delete tasks with ease.
 - **List View**: Display tasks in a scrollable list format.
 - **Persistent Data**: Store tasks locally for persistence across app sessions.
-#### Getting Started
+### Getting Started
 Follow the steps below to run the app on your local machine.
 
-##### Prerequisites
+#### Prerequisites
 Make sure you have the following installed:
   - Flutter SDK
   - A code editor (e.g., Visual Studio Code or Android Studio)
